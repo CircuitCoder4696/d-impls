@@ -18,7 +18,7 @@ public class SerialBuffer {
         this.data[this.wPtr .. (this.wPtr + size)]= d0;
         this.wPtr += size;
     };
-    public T rValue(ValueT)(ref T value) {
+    public void rValue(ValueT)(ref T value) {
         uint len= value.length;
         uint size= data.sizeof;
         void* d0= this.data.ptr + this.rPtr;
