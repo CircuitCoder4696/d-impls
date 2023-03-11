@@ -26,10 +26,10 @@ public class SerialBuffer {
         value= *d1;
     };
     public void rArray(T)(ref T data) {
-        uint len= data.length;
+        size_t len= data.length;
         uint size= data.sizeof;
         void* d0= this.data.ptr + this.rPtr;
-        T* d1= d0;
+        T* d1= d0.ptr;
         data= d1[0 .. len];
     };
 };
