@@ -34,7 +34,7 @@ public class SerialBuffer {
     };
 };
 
-@safe unittest {
+unittest {
 	import std.stdio:writeln;
 	auto buffer= new SerialBuffer(400);
 	buffer.wArray("Hello world.  ");
