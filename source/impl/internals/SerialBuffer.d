@@ -33,3 +33,12 @@ public class SerialBuffer {
         data= d1[0 .. len];
     };
 };
+
+@safe unittest {
+	import std.stdio:writeln;
+	auto buffer= new SerialBuffer(400);
+	buffer.wArray("Hello world.  ");
+	char[] v0= new char[14];
+	buffer.rArray(v0);
+	writeln(v0);
+};
