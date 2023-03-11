@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/d-impls
+d-impls.so
+d-impls.dylib
+d-impls.dll
+d-impls.a
+d-impls.lib
+d-impls-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

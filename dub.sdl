@@ -1,5 +1,5 @@
 name "d-impls"
-description "Low level implementations for my other libraries.  "
+description "Implimentations for dlang libraries.  "
 authors "CircuitCoder4696"
 copyright "Copyright © 2023, CircuitCoder4696"
 license "proprietary"
