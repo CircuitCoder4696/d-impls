@@ -1,3 +1,5 @@
+module impl.internals.SerialBuffer;
+
 import std.stdio;
 
 void main()
